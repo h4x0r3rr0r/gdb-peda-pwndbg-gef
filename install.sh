@@ -63,7 +63,7 @@ if [ -d ~/pwndbg ] || [ -h ~/.pwndbg ]; then
     fi
 else
     echo "[+] Downloading Pwndbg..."
-    git clone https://github.com/pwndbg/pwndbg.git ~/pwndbg
+    git clone https://github.com/h4x0r3rr0r/pwndbg.git ~/pwndbg
 
     cd ~/pwndbg
     ./setup.sh

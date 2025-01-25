@@ -54,7 +54,7 @@ if [ -d ~/pwndbg ] || [ -h ~/.pwndbg ]; then
 
     if [ $skip_pwndbg = 'n' ]; then
         rm -rf ~/pwndbg
-        git clone https://github.com/pwndbg/pwndbg.git ~/pwndbg
+        git clone https://github.com/h4x0r3rr0r/pwndbg.git ~/pwndbg
 
         cd ~/pwndbg
         ./setup.sh
